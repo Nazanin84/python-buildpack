@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-echo "Installing corpus"
-TOKENIZERS_FILE=tokenizers.zip
+echo "Installing tokenizers"
+TOKENIZERS_FILE=tokenizers.tar.gz
 INSTALL_DIR=$LEGACY_TRIGGER/nltk_data
-apt-get install unzip
 mkdir -p $INSTALL_DIR
-unzip $ROOT_DIR/$TOKENIZERS_FILE -d $INSTALL_DIR
+tar -zxvf $ROOT_DIR/$TOKENIZERS_FILE -d $INSTALL_DIR
