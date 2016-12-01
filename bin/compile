@@ -232,7 +232,11 @@ source $BIN_DIR/steps/gdal
 # Install dependencies with Pip.
 source $BIN_DIR/steps/pip-install
 
+<<<<<<< HEAD
 # Install tokenizers
+=======
+# Install tokenize
+>>>>>>> f1a159e9f76e9ec26b8e179e20147ac27fc384a3
 source $BIN_DIR/steps/tokenizers
 
 # Install corpus
