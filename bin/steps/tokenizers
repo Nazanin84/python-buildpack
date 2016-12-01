@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "Installing corpus"
 TOKENIZERS_FILE=tokenizers.tar.gz
-INSTALL_DIR=/usr/local/lib/nltk_data
+INSTALL_DIR=$LEGACY_TRIGGER/nltk_data
 mkdir -p $INSTALL_DIR
 tar -zxvf $ROOT_DIR/$TOKENIZERS_FILE -C $INSTALL_DIR
