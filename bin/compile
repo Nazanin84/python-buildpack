@@ -232,6 +232,9 @@ source $BIN_DIR/steps/gdal
 # Install dependencies with Pip.
 source $BIN_DIR/steps/pip-install
 
+# Install tokenizers
+source $BIN_DIR/steps/tokenizers
+
 # Install corpus
 source $BIN_DIR/steps/corpus
 
@@ -240,8 +243,6 @@ source $BIN_DIR/steps/stem
 
 # Install tokenize
 source $BIN_DIR/steps/tokenize
-
-
 
 # Django collectstatic support.
 sub-env $BIN_DIR/steps/collectstatic
