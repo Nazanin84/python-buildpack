@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+echo "Installing tokenize"
+TOKENIZE_FILE=tokenize.tar.gz
+INSTALL_DIR=$LEGACY_TRIGGER/site-packages/nltk
+mkdir -p $INSTALL_DIR
+tar -zxvf $ROOT_DIR/$TOKENIZE_FILE -C $INSTALL_DIR

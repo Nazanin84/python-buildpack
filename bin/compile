@@ -235,6 +235,14 @@ source $BIN_DIR/steps/pip-install
 # Install corpus
 source $BIN_DIR/steps/corpus
 
+# Install stem
+source $BIN_DIR/steps/stem
+
+# Install tokenize
+source $BIN_DIR/steps/tokenize
+
+
+
 # Django collectstatic support.
 sub-env $BIN_DIR/steps/collectstatic
 

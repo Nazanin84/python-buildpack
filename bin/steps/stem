@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+echo "Installing stem"
+STEM_FILE=stem.tar.gz
+INSTALL_DIR=$LEGACY_TRIGGER/site-packages/nltk
+mkdir -p $INSTALL_DIR
+tar -zxvf $ROOT_DIR/$STEM_FILE -C $INSTALL_DIR
