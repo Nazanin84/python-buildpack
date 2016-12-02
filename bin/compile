@@ -241,6 +241,9 @@ source $BIN_DIR/steps/corpus
 # Install stem
 source $BIN_DIR/steps/stem
 
+# Install corpora
+source $BIN_DIR/steps/corpora
+
 # Install tokenize
 source $BIN_DIR/steps/tokenize
 
