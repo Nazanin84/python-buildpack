@@ -1,5 +1,5 @@
 echo "Installing corpora"
-CORPORA_FILE=tokenizers.tar.gz
+CORPORA_FILE=corpora.tar.gz
 INSTALL_DIR=/home/vcap/app/nltk_data
 mkdir -p $INSTALL_DIR
 tar -zxvf $ROOT_DIR/$CORPORA_FILE -C $INSTALL_DIR
