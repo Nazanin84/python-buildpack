@@ -209,7 +209,7 @@ mkdir -p $(dirname $PROFILE_PATH)
 source $BIN_DIR/steps/python
 
 # Sanity check for setuptools/distribute.
-source $BIN_DIR/steps/setuptools
+# source $BIN_DIR/steps/setuptools
 
 # Uninstall removed dependencies with Pip.
 source $BIN_DIR/steps/pip-uninstall
@@ -233,7 +233,7 @@ source $BIN_DIR/steps/pip-install
 source $BIN_DIR/steps/tokenizers
 
 # Install corpus
-source $BIN_DIR/steps/corpus
+# source $BIN_DIR/steps/corpus
 
 # Install stem
 source $BIN_DIR/steps/stem
