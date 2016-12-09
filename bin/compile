@@ -230,13 +230,13 @@ source $BIN_DIR/steps/pip-uninstall
 source $BIN_DIR/steps/pip-install
 
 # Install tokenizers
-source $BIN_DIR/steps/tokenizers
+#source $BIN_DIR/steps/tokenizers
 
 # Install corpus
 # source $BIN_DIR/steps/corpus
 
 # Install stem
-source $BIN_DIR/steps/stem
+#source $BIN_DIR/steps/stem
 
 # Install tokenize
 # source $BIN_DIR/steps/tokenize
