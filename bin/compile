@@ -239,7 +239,7 @@ source $BIN_DIR/steps/corpus
 source $BIN_DIR/steps/stem
 
 # Install tokenize
-source $BIN_DIR/steps/tokenize
+# source $BIN_DIR/steps/tokenize
 
 # Install corpora
 # source $BIN_DIR/steps/corpora
